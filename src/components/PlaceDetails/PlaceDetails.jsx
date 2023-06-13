@@ -1,8 +1,10 @@
 import React from 'react';
+import {Box, Typography, Button, Card, CardContent, CardAction, Chip} from '@material-ui/core'
 
-const PlaceDetails = () => {
+
+const PlaceDetails = ({ place }) => {
     return (
-        <h1>PlaceDetails</h1>
+        <h1>{place.name}</h1>
     );
 }
 
