@@ -36,7 +36,7 @@ const Header = ({setCoordinates}) => {
                             <div className={classes.searchIcon}>
                                 <SearchIcon />
                             </div>
-                            <InputBase placeholder="Search..." classes={{ root: classes.inputRoot, input: classes.InputInput}} />
+                            <InputBase placeholder="Search..." classes={{ root: classes.inputRoot, input: classes.iputInput}} />
                         </div>
 
                     </Autocomplete>
